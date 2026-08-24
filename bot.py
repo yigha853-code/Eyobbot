@@ -17,7 +17,8 @@ app = Flask(name)
 
 @app.route('/')
 def home():
-  return 'Eyob Lottery Bot is running live!'
+return 'Eyob Lottery Bot is running live!'
+
 
 
 def load_data():
