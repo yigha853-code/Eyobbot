@@ -1,4 +1,4 @@
-import json
+
 import os
 import random
 import threading
@@ -60,7 +60,4 @@ def send_welcome(message):
 def prompt_for_receipt(message):
   bot.send_message(
       message.chat.id,
-      'እባክዎ የቴሌብር/የባንክ ክፍያ ፈጽመው የደረሰኙን ስክሪንሾት ፎቶ አሁን ይላኩኝ። 📥',
-  )
-
-
+      'እባክዎ የቴሌብር/የባንክ ክፍያ ፈጽመው የደረሰኙን ስክሪንሾት
